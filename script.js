@@ -75,9 +75,9 @@ const playRound = () => {
 }
 
 const playGame = () => {
-    humanScore = 0;
-    computerScore = 0;
     let round = 0;
+    humanScore = 0;
+    computerScore = 0;   
 
     for (round = 0; round < 5; round++) {
         console.log(`Player: ${humanScore} \nComputer: ${computerScore}`);
@@ -93,5 +93,4 @@ const playGame = () => {
     else {
         alert(`Player: ${humanScore} \nComputer: ${computerScore} \nIt's a tie!`);
     }
-    
 }
